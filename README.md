@@ -6,3 +6,5 @@
 - Ifeaco
 - Bona
 - Alex
+## Live Site
+Click [Here](https://bolowys33.github.io/JP_Birthday/) to view that live site
