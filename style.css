@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://i.gifer.com/Ir4.gif");
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #f3dbd2;
+    text-align: center;
+    margin-top: 2rem;
+    animation-name: tilt;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+img{
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+h2{
+    font-size: 3rem;
+    color: #f3dbd2;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@keyframes tilt {
+    0% {
+        transform: rotateZ(-10deg);
+    }
+    50% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(-10deg);
+    }
+}
